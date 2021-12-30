@@ -75,26 +75,3 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
-
-/* Scaffold(
-      body: Stack(
-        children: [
-          Image.asset(
-            "assets/splash_screen.png",
-            fit: BoxFit.fill,
-            height: size.height,
-            width: size.width,
-            alignment: Alignment.center,
-          ),
-          Positioned(
-              top: size.height * 0.30,
-              left: size.width * 0.34,
-              child: Image.asset(
-                "assets/image.gif",
-                alignment: Alignment.center,
-                // height: size.height * 0.2,
-                width: size.width * 0.34,
-              )),
-        ],
-      ),
-    ); */

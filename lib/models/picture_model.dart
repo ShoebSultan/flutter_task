@@ -1,6 +1,6 @@
 class PictureModel {
-  final int height;
-  final int width;
+  final int? height;
+  final int? width;
   final String url;
 
   PictureModel({required this.height, required this.width, required this.url});

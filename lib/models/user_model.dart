@@ -1,10 +1,10 @@
 import 'package:flutter_task/models/picture_model.dart';
 
 class UserModel {
-  final String email;
-  final String id;
-  final String name;
-  final PictureModel pictureModel;
+  final String? email;
+  final String? id;
+  final String? name;
+  final PictureModel? pictureModel;
 
   UserModel(
       {required this.email,
